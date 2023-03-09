@@ -6,7 +6,7 @@
 conda create -n pytorch python=3.9
 conda activate pytorch
 conda install pytorch torchvision torchaudio -c pytorch
-conda install ipykernel matplotlib
+conda install ipykernel matplotlib pandas
 python -m ipykernel install --user --name pytorch
 conda deactivate
 ```
